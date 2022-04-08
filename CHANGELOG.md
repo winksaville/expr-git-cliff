@@ -2,14 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.1] - 2022-04-08
+
+### Other
+
+- Bump version to v0.3.1
+
+And manually create IDEAL_CHANGELOG.md
+
+- Change sort_commits to newest
+
+
 ## [0.3.0] - 2022-04-08
 
 ### Other
 
-- Add cliff.toml
+- Bump version to v0.3.0
 
- - Accomplished using `git cliff --init` with no other changes.
- - git-cliff was previously installed with `cargo install git-cliff`.
+- An actual CHANGELOG.md
+
+ - it's very noisy
+ - And indented dashes in commit messages look like commits :(
 
 - Add first CHANGELOG.md
 
@@ -20,33 +33,31 @@ The CHANGELOG.md file is practically empty as by default I do not use
 
 TODO: Will need to edit `cliff.toml` to allow `unconventional` commits.
 
-- An actual CHANGELOG.md
+- Add cliff.toml
 
- - it's very noisy
- - And indented dashes in commit messages look like commits :(
-
-- Bump version to v0.3.0
+ - Accomplished using `git cliff --init` with no other changes.
+ - git-cliff was previously installed with `cargo install git-cliff`.
 
 
 ## [0.2.0] - 2022-04-08
 
 ### Other
 
-- Change the message of main
+- Bump version to v0.2.0
 
-I want it to be more specific.
-
-- Add licenses
-
-This is dual licensed both APACHE and MIT.
+This is now a minimal experiment.
 
 - Add README.md
 
 Added a Title and a introducing sentence.
 
-- Bump version to v0.2.0
+- Add licenses
 
-This is now a minimal experiment.
+This is dual licensed both APACHE and MIT.
+
+- Change the message of main
+
+I want it to be more specific.
 
 
 ## [0.1.0] - 2022-04-08
