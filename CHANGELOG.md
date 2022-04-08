@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [0.3.0] - 2022-04-08
 
 ### Other
 
@@ -24,6 +24,8 @@ TODO: Will need to edit `cliff.toml` to allow `unconventional` commits.
 
  - it's very noisy
  - And indented dashes in commit messages look like commits :(
+
+- Bump version to v0.3.0
 
 
 ## [0.2.0] - 2022-04-08
