@@ -2,8 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [0.3.1] - 2024-11-08
 
+- Bump version to v0.3.1
+- feat: Change cliff.toml to generate IDEAL_CHANGELOG.md
 - Add IDEAL_CHANGELOG.md
 - Change sort_commits to newest
 
