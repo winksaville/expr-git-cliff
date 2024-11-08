@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.2] - 2024-11-08
+
+- doc: Bump version to v0.3.2
+- doc: Update README.md
+
 ## [0.3.1] - 2024-11-08
 
 - Bump version to v0.3.1

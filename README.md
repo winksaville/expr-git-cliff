@@ -61,18 +61,22 @@ All notable changes to this project will be documented in this file.
 - Change Cargo.toml version to the desired value like `v0.3.2`
 - Update Cargo.toml with the new version
 - Update README.md and any other files
-- Create a `wip: Bump version to v0.3.2` commit
-- Run build
-- Run the following command to generate the CHANGELOG.md
+- Run `cargo build` build and tests at a minimum and verify all is well
+- Generate the CHANGELOG.md
 
 ```bash
 git cliff --tag v0.3.2 -o CHANGELOG.md
 ```
+- Commit/Amend changes with something like `doc: Bump version to v0.3.2`
+- loop as necessary to get the desired CHANGELOG.md and other changes
 
-- Verify the `CHANGELOG.md` file and commit the changes
-- Tag the commit with the version number
+When satisfied with the CHANGELOG.md and other changes, tag the commit
+with the version number like `v0.3.2` and push to the repository.
 
+```bash
 git tag v0.3.2
+git push origin v0.3.2
+```
 
 
 ## License
